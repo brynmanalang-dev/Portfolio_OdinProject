@@ -5,8 +5,10 @@ This project was requested by The Odin Project
 
 ## FEATURES
 
-* Hero Page with working hyperlink icons
+* Hero Page with Navigation
 
-* Working Works page
+* Working embedded videos to see work
+
+* Working Individual Pages (Not yet with Content)
 
 * Working Call to action button

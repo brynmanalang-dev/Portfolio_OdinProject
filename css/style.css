@@ -1,34 +1,110 @@
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 100px;
-    background-color: #19212c;
-    padding-left: 50px;
-    padding-right: 50px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    min-height: 100px;
+    background-color: #19212c;
     text-decoration: none;
     color: white;
+}
+
+.navi{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.navi a{
+        font-size: 25px;
+        text-decoration: none;
+        color: white;
+}
+
+.home{
+    display: flex;
+}
+
+.about{
+    display: flex;
+}
+
+.works{
+    display: flex;
+}
+
+
+.logo{
+    height: auto;
+    width: 150px;
+}
+
+.accounts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.accounticons{
+    height: auto;
+    width: 30px;  
 }
 
 .hero{
     background-color: #1F2937;
     display: flex;
-    height: 600px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    min-height: 473px;
+    gap: 50px;
 }
+
 
 .hero1{
     display: flex;
     color: white;
     text-decoration: none;
-    height: 600px;
+    height: auto;
     flex-direction: column;
+}
+
+.hero2{
+    display: flex;
+    justify-content: center;
+}
+
+.hero2 img{
+    display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    min-height: 100%
+}
+
+.hero3{
+    display: flex;
+}
+
+.hero3 li{
+    color: white;
+    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 185px;
+}
+
+.hero3 a{
+    color: white;
+    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
 }
 
 .herobody{
@@ -40,25 +116,6 @@
     font-size: 50px;
 }
 
-.hero2{
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    background-color: white;
-    border-radius: 10px;
-}
-
-.hero2 img{
-    height: auto;
-    width: 500px;
-    border-radius: 10px;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .name{
     font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
@@ -77,22 +134,10 @@
 
 .worksheader{
     font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-size: 30px;
     color: #1F2937;
     padding-top: 20px;
-}
-
-.accounts{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-.accounticons{
-    height: auto;
-    width: 50px;  
 }
 
 .works{
