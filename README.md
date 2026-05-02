@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-My first ever polished* websites, made in html and css.
+My first ever polished* website, made in html and css.
 This project was requested by The Odin Project
 
 ## FEATURES

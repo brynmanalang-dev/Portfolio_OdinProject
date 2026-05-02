@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    min-height: 100px;
     background-color: #19212c;
     padding-left: 50px;
     padding-right: 50px;
@@ -43,6 +43,9 @@
 .hero2{
     display: flex;
     justify-content: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .hero2 img{
@@ -98,7 +101,7 @@
     justify-content: center;
     gap: 20px;
     padding-top: 20px;
-    
+    flex-wrap: wrap;
 }
 
 p{
@@ -123,12 +126,16 @@ p{
     padding-top: 10px;
 }
 
+.website img, .video iframe{
+    border-radius: 10px;
+}
+
 .qoutetab{
     background-color: #E5E7EB;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    min-height: 200px;
 }
 
 .qoute{
@@ -203,6 +210,7 @@ p{
     background-color: #19212c;
     justify-content: center;
     padding: 50px;
+    flex: 1;
 }
 
 .footerwatermark{
@@ -217,4 +225,10 @@ p{
 
 .footerwatermark p{
     font-size: 10px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
