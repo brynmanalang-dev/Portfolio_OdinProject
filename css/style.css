@@ -16,39 +16,41 @@
 .hero{
     background-color: #1F2937;
     display: flex;
-    height: 1000px;
+    height: 600px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .hero1{
-    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
     display: flex;
-    font-size: 30px;
     color: white;
     text-decoration: none;
     height: 600px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1;
 }
 
-.herotext p{
-    font-family: Georgia, 'Times New Roman', Times, serif
+.herobody{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heroheader{
+    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
 }
 
 .hero2{
     display: flex;
-    flex: 1;
     justify-content: center;
 }
 
 .hero2 img{
     height: auto;
-    width: 900px;
+    width: 500px;
     border-radius: 10px;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -65,7 +67,9 @@
 
 .workstab{
     background-color: white;
-    height: 1000px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
 }
 
 .worksheader{
@@ -86,4 +90,131 @@
 .accounticons{
     height: auto;
     width: 50px;  
+}
+
+.works{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    
+}
+
+p{
+    text-align: center;
+}
+
+.works img{
+    height: auto;
+    width: 494px
+}
+
+.website, .video{
+    background-color: #3882F2;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+}
+
+.website p, .video p{
+    padding-top: 10px;
+}
+
+.qoutetab{
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.qoute{
+    display: flex;
+    flex-direction: column;
+}
+
+.qoute h1{
+    font-family: Century Gothic, sans-serif;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.qoute p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.ctatab{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.contactui{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 400px;
+    background-color: #3882F2;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 40px;
+}
+
+.contacttext h2{
+    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.contacttext p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.ctabutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline-style: solid;
+    outline-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ctabutton a{
+    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.footer{
+    display: flex;
+    background-color: #19212c;
+    justify-content: center;
+    padding: 50px;
+}
+
+.footerwatermark{
+    color: white;
+    font-family: Century Gothic, sans-serif;
+
+}
+
+.footerwatermark a{
+    color: white;
+}
+
+.footerwatermark p{
+    font-size: 10px;
 }
